@@ -26,4 +26,4 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-**Screenshot**: ![Alt text](<Screenshot 2023-10-18 at 17.22.48.png>)
+*Screenshot*: ![Deployed page](<Screenshot 2023-10-18 at 17.22.48.png>)
