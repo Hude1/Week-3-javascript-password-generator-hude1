@@ -34,15 +34,13 @@ function generatePassword(){
   if(includespecial) allChars += specialChars
   
 
-  let passwrod = ""
+  let password = ""
   for(let i=0; i<pwdLen; i++){
     let randomIndex = Math.floor(Math.random() * allChars.length)
-    passwrod += allChars[randomIndex]
+    password += allChars[randomIndex]
   }
 
-  return passwrod
-
-
+  return password
 
 }
 
